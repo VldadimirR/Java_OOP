@@ -4,11 +4,17 @@ public abstract class User {
     private String firstName;
     private  String lastName;
     private int id;
+    private String fio;
 
-    public User(String firstName, String lastName, int id) {
+    public User(String fio){
+        this.fio = fio;
+    }
+
+    public User(String firstName, String lastName, int id, String fio) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
+        this.fio = fio;
     }
 
     public String getFirstName() {
@@ -33,5 +39,13 @@ public abstract class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public void setFio(String fio) {
+        this.fio = fio;
+    }
+
+    public String getFio() {
+        return fio;
     }
 }

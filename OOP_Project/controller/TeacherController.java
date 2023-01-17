@@ -1,7 +1,7 @@
 package OOP_Project.controller;
 
 import OOP_Project.data.Teacher;
-import OOP_Project.service.TeacherService;
+import OOP_Project.service.TeacherService; 
 
 public class TeacherController implements GeneralizedController<Teacher, Integer> {
     private final TeacherService teacherService;

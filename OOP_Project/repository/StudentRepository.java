@@ -22,4 +22,22 @@ public class StudentRepository implements UserRepository<Student, Integer> {
         return null;
     }
 
+    @Override
+    public Student removeFio(String fio) {
+        return null;
+    }
+    
+
+    
+    public Student remove(Student entity) {
+        return null;
+    }
+
+    public Student removeNumberAge(int groupNumber, int yearOfBirth){
+        return null;
+    }
+
+    
+    
+
 }

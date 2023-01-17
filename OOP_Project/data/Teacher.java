@@ -3,8 +3,8 @@ package OOP_Project.data;
 public class Teacher extends User {
     private String rank;
 
-    public Teacher(String firstName, String lastName, int id, String rank) {
-        super(firstName, lastName, id);
+    public Teacher(String firstName, String lastName, int id, String rank, String fio) {
+        super(firstName, lastName, id, fio);
         this.rank = rank;
     }
 
