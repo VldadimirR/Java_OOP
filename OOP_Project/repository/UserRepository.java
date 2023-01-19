@@ -6,5 +6,5 @@ public interface UserRepository<E extends User, I> extends Repository<E, I> {
 
     E findByFio(String fio);
 
-    E removeFio(String fio);
+    E removeByFio(String fio);
 }

@@ -23,7 +23,7 @@ public class StudentRepository implements UserRepository<Student, Integer> {
     }
 
     @Override
-    public Student removeFio(String fio) {
+    public Student removeByFio(String fio) {
         return null;
     }
     
@@ -33,7 +33,7 @@ public class StudentRepository implements UserRepository<Student, Integer> {
         return null;
     }
 
-    public Student removeNumberAge(int groupNumber, int yearOfBirth){
+    public Student removeByGroupNumberAndAge(int groupNumber, int yearOfBirth){
         return null;
     }
 

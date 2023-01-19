@@ -19,5 +19,4 @@ public class StudentGroupController implements GeneralizedController<StudentGrou
     public StudentGroup findById(Integer id) {
         return groupServiceImpl.findGroup(id);
     }
-
 }

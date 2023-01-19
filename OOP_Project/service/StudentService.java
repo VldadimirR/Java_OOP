@@ -26,12 +26,12 @@ public class StudentService {
         return studentRepository.remove(student);
     }
 
-    public Student removeFio(String fio) {
-        return studentRepository.removeFio(fio);
+    public Student removeByFio(String fio) {
+        return studentRepository.removeByFio(fio);
     }
 
-    public Student removeNumberAge(int groupNumber, int yearOfBirth){
-        return studentRepository.removeNumberAge(groupNumber, yearOfBirth);
+    public Student removeByGroupNumberAndAge(int groupNumber, int yearOfBirth){
+        return studentRepository.removeByGroupNumberAndAge(groupNumber, yearOfBirth);
     }
 
 
